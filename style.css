@@ -115,7 +115,10 @@ font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 
 display: flex;
 flex-direction: column;
+height: 600px;
+width: 600px;
 
+margin-left: 50px;
 }
 .house{
 
@@ -246,5 +249,122 @@ flex-direction: column;
 line-height: 1.5em;
 justify-content: center;
 align-items: flex-start;
+
+}
+
+.box{
+
+height:40px;
+width:350px;
+border:1px solid grey;
+box-shadow: 2px 2px 2px 2px grey;
+margin-left: 80px;
+background-color: ghostwhite;
+border-radius: 5px;
+}
+.city-box{
+
+   height:40px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 95px;
+   background-color: ghostwhite;
+   border-radius: 5px;
+
+}
+.subject-box{
+
+   height:40px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 68px;
+   background-color: ghostwhite;
+   border-radius: 5px;
+}
+.name-label{
+
+font-size: 15px;
+font-weight: bolder;
+color: gray;
+
+}
+
+.sms-box{
+
+
+   height:100px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 65px;
+   background-color: ghostwhite;  
+   border-radius: 5px;
+}
+.mobile-box{
+   height:40px;
+   width:350px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 70px;
+   background-color: ghostwhite;  
+   border-radius: 5px;
+
+}
+.small-box{
+
+   height:42px;
+   width:150px;
+   border:1px solid grey;
+   box-shadow: 2px 2px 2px 2px grey;
+   margin-left: 120px;
+   background-color: ghostwhite;  
+   border-radius: 5px;
+
+}
+.code{
+margin-left: 45px;
+position: relative;
+
+
+}
+.captcha{
+
+height: 45px;
+width:150px;
+border: 2px solid black;
+position: absolute;
+}
+.games{
+
+display: flex;
+flex-direction: row;
+
+height:60px;
+width:600px;
+}
+.enter{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+font-weight: bolder;
+color: gray;
+
+}
+.send{
+
+background-color: #9f1f63;
+color:white;
+font-size: 16px;
+height: 42px;
+width: 100px;
+border-radius: 5px;
+}
+.button{
+
+margin-left: 150px;
+margin-top: 20px;
 
 }
